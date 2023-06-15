@@ -1,0 +1,11 @@
+nacos:
+  service_name: model-prediction
+  service_ip: 172.22.121.60
+  service_port: 9000
+  host: 172.22.121.60:8848
+  namespace: ad966f2f-a40a-43fa-8c20-45135edd8a46
+  group: cloud
+  prod_namespace: aa4cd494-57a0-47c5-8894-bbda23b83063
+
+check_point:
+  ss_output: './output'
